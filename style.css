@@ -70,3 +70,24 @@ list-style: none;
 .related {
   list-style: none;
 }
+
+
+
+/* 
+==========================
+Notes: Working with Colors
+- two ways to define color in css:
+1.RGB/RGBA NOTATION
+2.HEXADECIMAL NOTION
+
+.............
+- RGB notation examples:
+rgb(0, 255, 255)
+
+with transparency("alpha")
+rgba(0, 255, 255, 0.03) =the forth number is the transparency.
+..............
+
+
+=========================
+*/
