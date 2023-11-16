@@ -167,3 +167,14 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+
+/* Hierarchy (selectors) 
+from highest to lowest
+
+id(#)
+class(.)
+element selector(p,div,li,etc..)
+universal selector(*)
+
+
+*/
