@@ -139,3 +139,7 @@ li:nth-child(odd) {
 target first paragraph thats in the article using the: descendant selector.
 article p
 */
+
+article p:last-child{
+  color: red;
+}
