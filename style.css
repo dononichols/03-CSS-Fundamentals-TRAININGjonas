@@ -168,7 +168,9 @@ a:active {
   font-style: italic;
 }
 
-/* Hierarchy (selectors) 
+/*
+==================
+ Hierarchy (selectors) 
 from highest to lowest
 
 id(#)
@@ -176,5 +178,7 @@ class(.)
 element selector(p,div,li,etc..)
 universal selector(*)
 
-
+-------
+the !important; keyword makes a declartion more important than all the other ones.
+Also, often used in html emails.
 */
