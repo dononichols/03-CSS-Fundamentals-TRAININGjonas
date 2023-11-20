@@ -1,7 +1,9 @@
 
-h1, h2, h3, h4, p, li {
+body {
+  color: #444;
   font-family: sans-serif;
 }
+
 
 h1, h2, h3 {
   color: #1098ad;
@@ -188,4 +190,6 @@ Also, often used in html emails.
 /*  
 ===============
 CSS Inheritance and the Universal Selector
+
+-inherited properties are easily over written by a rule written for that item.
 */
