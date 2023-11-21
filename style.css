@@ -1,11 +1,25 @@
 
 * {
-  
+  margin: 0;
+  padding: 0;
+
 }
 
 body {
   color: #444;
   font-family: sans-serif;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  
 }
 
 
@@ -46,8 +60,12 @@ p {
 }
 
 li {
-  
   font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 /* descendant selector */
@@ -107,15 +125,6 @@ example: #00ffff
 =========================
 */
 
-.main-header {
-  background-color: #f7f7f7;
-}
-
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-}
 
 /*
 ------------------------------- 
