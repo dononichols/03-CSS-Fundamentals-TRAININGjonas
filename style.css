@@ -31,6 +31,7 @@ body {
 
 nav {
   font-size: 18px;
+  /* text-align: center; */
 }
 
 article {
@@ -230,6 +231,7 @@ nav  a:link{
   margin-top: 10px;
 
   display: inline-block;
+
 }
 
 nav  a:link:last-child {
@@ -314,3 +316,28 @@ CSS Inheritance and the Universal Selector
 - universal selector-applies to all elements and there is no inheritance involved.
 */
 
+/* 
+
+
+===================
+FLOATS
+====================
+*/
+.author-img {
+float:left;
+margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin-bottom: 10px;
+margin-left: 20px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
