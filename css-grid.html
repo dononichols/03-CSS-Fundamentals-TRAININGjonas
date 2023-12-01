@@ -33,6 +33,7 @@
       }
 
       .container--1 {
+       
         /* STARTER */
         font-family: sans-serif;
         background-color: #ddd;
@@ -50,6 +51,9 @@ grid-template-rows: 1fr 1fr;
         /* gap: 30px; */
         column-gap: 20px;
         row-gap: 40px;
+
+        /* TEMPORARY */
+        display: none;
       }
 
       .el--8 {
@@ -66,19 +70,33 @@ grid-template-rows: 1fr 1fr;
       }
 
       .container--2 {
-
-        display: none;
+ /* display: none;
+        */
 
         /* STARTER */
         font-family: sans-serif;
         background-color: black;
         font-size: 40px;
-        margin: 100px;
+        margin: 40px;
 
-        width: 1000px;
+        width: 700px;
         height: 600px;
 
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 100px;
+gap: 25px;
+        /*  
+        Aligning tracks inside container:
+        distribute empty space.
+        */
+        justify-content: center;
+        align-content: center;
+
+        /* Aligning items Inside cells: moving items around inside cells */
+        align-items: center;
+        justify-items: center;
       }
     </style>
   </head>
